@@ -1,68 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+   <head>
+      <meta charset="UTF-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1.0"
+      />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+      <!-- ? Google Font  -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- font-family: 'Barlow', sans-serif; -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  About
-  Services
-  Projects
-  Contact
+      <link
+         href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- font-family: 'Fraunces', serif; -->
 
-  We are creatives
+      <!-- ? Normalize css -->
+      <link
+         rel="stylesheet"
+         href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+      />
 
-  Transform your brand
+      <link rel="stylesheet" href="style.css" />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./images/favicon-32x32.png"
+      />
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+      <title>
+         Frontend Mentor | Sunnyside agency landing page
+      </title>
+   </head>
+   <body>
+      <!-- **************************** -->
+      <!-- ? ********* header ********* -->
+      <!-- **************************** -->
+      <header class="header">
+         <nav class="nav">
+            <div class="nav__logo">
+               <img src="" alt="" class="nav__img" />
+            </div>
 
-  Learn more
+            <div class="nav__icon"></div>
+            <ul class="nav__box nav__list">
+               <li class="nav__item">
+                  <a class="nav__link" href="#">About</a>
+               </li>
+               <li class="nav__item">
+                  <a class="nav__link" href="#">Services</a>
+               </li>
+               <li class="nav__item">
+                  <a class="nav__link" href="#">Projects</a>
+               </li>
+               <li class="nav__item">
+                  <a class="nav__link nav__link-white" href="#"
+                     >Contact</a
+                  >
+               </li>
+            </ul>
+         </nav>
 
-  Stand out to the right audience
+         <div class="header__box">
+            <h1 class="header__title">We are creatives</h1>
+         </div>
+      </header>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+      <!-- **************************** -->
+      <!-- ? ********** main ********** -->
+      <!-- **************************** -->
+      <main class="main">
+         <!-- **************************** -->
+         <!-- ? ******* boxes-top ******* -->
+         <div class="boxes-top">
+            <!-- ? box -->
+            <div class="box box-text">
+               <h2 class="box-text__title">
+                  Transform your brand
+               </h2>
 
-  Learn more
+               <p class="box-text__paragraph">
+                  We are a full-service creative agency
+                  specializing in helping brands grow fast.
+                  Engage your clients through compelling visuals
+                  that do most of the marketing for you.
+               </p>
+               <button class="box-text__btn">Learn more</button>
+            </div>
+            <!-- ? box -->
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            <div class="box box-egg">
+               <img class="box-back__img" alt="" />
+            </div>
+            <!-- ? box -->
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+            <div class="box box-rose">
+               <img class="box-back__img" alt="" />
+            </div>
+            <!-- ? box -->
 
-  Client testimonials
+            <div class="box box-text">
+               <h2 class="box-text__title">
+                  Stand out to the right audience
+               </h2>
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
+               <p class="box-text__paragraph">
+                  Using a collaborative formula of designers,
+                  researchers, photographers, videographers, and
+                  copywriters, we’ll build and extend your brand
+                  in digital places.
+               </p>
+               <button class="box-text__btn">Learn more</button>
+            </div>
+            <!-- ? box -->
 
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
+            <div class="box box-mix">
+               <div class="box-mix__top">
+                  <img src="" alt="" class="box-mix__img" />
+               </div>
+               <div class="box-mix__buttom">
+                  <h2 class="box-mix__title">Graphic design</h2>
+                  <p class="box-mix__paragraph">
+                     Great design makes you memorable. We deliver
+                     artwork that underscores your brand message
+                     and captures potential clients’ attention.
+                  </p>
+               </div>
+            </div>
+            <!-- ? box -->
 
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
+            <div class="box box-mix">
+               <div class="box-mix__top">
+                  <img src="" alt="" class="box-mix__img" />
+               </div>
+               <div class="box-mix__buttom">
+                  <h2 class="box-mix__title">Photography</h2>
+                  <p class="box-mix__paragraph">
+                     Increase your credibility by getting the
+                     most stunning, high-quality photos that
+                     improve your business image.
+                  </p>
+               </div>
+            </div>
+         </div>
 
-  About
-  Services
-  Projects
-  Contact
+         <!-- **************************** -->
+         <!-- ? ****** boxes-middle ****** -->
+         <div class="boxes-middle">
+            <h2 class="boxes-middle__title">
+               Client testimonials
+            </h2>
+            <div class="boxes-middle-container">
+               <section class="card">
+                  <div class="car__figure">
+                     <img
+                        src="./images/image-emily.jpg"
+                        alt="image emily"
+                        class="car__img"
+                     />
+                  </div>
+                  <div class="card__body">
+                     <p class="card__paragraph">
+                        We put our trust in Sunnyside and they
+                        delivered, making sure our needs were met
+                        and deadlines were always hit.
+                     </p>
+                  </div>
+                  <div class="card__footer">
+                     <p class="card__name">Emily R.</p>
+                     <p class="card__action">
+                        Marketing Director
+                     </p>
+                  </div>
+               </section>
+               <section class="card">
+                  <div class="car__figure">
+                     <img
+                        src="./images/image-thomas.jpg"
+                        alt="image thomas"
+                        class="car__img"
+                     />
+                  </div>
+                  <div class="card__body">
+                     <p class="card__paragraph">
+                        Sunnyside’s enthusiasm coupled with their
+                        keen interest in our brand’s success made
+                        it a satisfying and enjoyable experience.
+                     </p>
+                  </div>
+                  <div class="card__footer">
+                     <p class="card__name">Thomas S.</p>
+                     <p class="card__action">
+                        Chief Operating Officer
+                     </p>
+                  </div>
+               </section>
+               <section class="card">
+                  <div class="card__figure">
+                     <img
+                        src="./images/image-jennie.jpg"
+                        alt="image jennie"
+                        class="card__img"
+                     />
+                  </div>
+                  <div class="card__body">
+                     <p class="card__paragraph">
+                        Incredible end result! Our sales
+                        increased over 400% when we worked with
+                        Sunnyside. Highly recommended!
+                     </p>
+                  </div>
+                  <div class="card__footer">
+                     <p class="card__name">Jennie F.</p>
+                     <p class="card__action">Business Owner</p>
+                  </div>
+               </section>
+            </div>
+         </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+         <!-- **************************** -->
+         <!-- ? ****** boxes-bottom ****** -->
+         <div class="boxes-bottom">
+            <div class="box-bottom">
+               <img src="" alt="" class="box-bottom__img" />
+            </div>
+            <div class="box-bottom">
+               <img src="" alt="" class="box-bottom__img" />
+            </div>
+            <div class="box-bottom">
+               <img src="" alt="" class="box-bottom__img" />
+            </div>
+            <div class="box-bottom">
+               <img src="" alt="" class="box-bottom__img" />
+            </div>
+         </div>
+      </main>
+
+      <!-- **************************** -->
+      <!-- ? ********* footer ********* -->
+      <!-- **************************** -->
+      <footer class="footer">
+         <!-- **************************** -->
+         <!-- ? ******* footer-top ******* -->
+         <div class="footer-top">
+            <div class="footer__logo">
+               <img src="" alt="" class="footer__img" />
+            </div>
+            <ul class="footer__links">
+               <li class="footer__item">
+                  <a href="" class="footer__link">About</a>
+               </li>
+               <li class="footer__item">
+                  <a href="" class="footer__link">Services</a>
+               </li>
+               <li class="footer__item">
+                  <a href="" class="footer__link">Projects</a>
+               </li>
+            </ul>
+         </div>
+
+         <!-- **************************** -->
+         <!-- ? ***** footer-bottom ***** -->
+         <div class="footer-bottom"></div>
+      </footer>
+   </body>
 </html>
