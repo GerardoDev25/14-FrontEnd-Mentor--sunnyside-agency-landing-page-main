@@ -404,4 +404,140 @@ body {
 /* ************************************* */
 
 @media screen and (min-width: 767px) {
+   .header,
+   .main,
+   .footer {
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   /* ************************************* */
+   /* ? ************* header ************* */
+   .header {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 0;
+      align-items: center;
+      justify-content: center;
+      background-image: url("../images/desktop/image-header.jpg");
+   }
+   .nav {
+      align-items: center;
+      height: 25%;
+   }
+
+   .nav__icon {
+      display: none;
+   }
+   .nav__box {
+      width: 50%;
+      margin: 0;
+      flex-direction: row;
+      justify-content: space-evenly;
+      min-width: 20rem;
+      background-color: transparent;
+   }
+
+   .nav__box::after {
+      display: none;
+   }
+
+   .nav__link {
+      color: white;
+      font-weight: 400;
+   }
+
+   .nav__link-yellow {
+      background-color: white;
+      color: black;
+   }
+
+   .nav__link-yellow:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+
+      cursor: pointer;
+      transition: background-color 0.2s;
+   }
+
+   .nav__box-hiden {
+      height: auto;
+   }
+
+   .header__box {
+      height: 75%;
+      background-size: 4%;
+      background-position: center 30%;
+   }
+
+   /* ************************************* */
+   /* ? ************** main ************** */
+   .box {
+      width: 50%;
+      order: 0;
+      height: 700px;
+   }
+
+   .box-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+   }
+
+   .box-text__btn {
+      margin-right: auto;
+   }
+   .box-text__btn:hover {
+      cursor: pointer;
+   }
+
+   .box-mix {
+      background-position-y: 30%;
+      font-size: 1rem;
+      padding-left: 5.5rem;
+      padding-right: 5.5rem;
+   }
+
+   .boxes-middle {
+      margin-top: 8rem;
+      margin-bottom: 8rem;
+   }
+
+   .boxes-middle-container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+   }
+
+   .card {
+      width: 30%;
+   }
+
+   .box-bottom {
+      height: 100%;
+      width: 25%;
+   }
+
+   /* ************************************* */
+   /* ? ************* footer ************* */
+
+   .footer {
+      height: 300px;
+   }
+
+   .footer__links {
+      margin-left: auto;
+      margin-right: auto;
+      width: 20rem;
+   }
+   .footer__link:hover,
+   .fab:hover {
+      color: white;
+      cursor: pointer;
+   }
+   .footer-bottom__icons {
+      width: 10rem;
+   }
 }
