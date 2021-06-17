@@ -1,6 +1,7 @@
 const navIcon = document.getElementById("navIcon");
 const navBox = document.getElementById("bavBox");
 
+// ? show | hidden navBar
 navIcon.addEventListener("click", (e) => {
    e.stopPropagation();
    if (navBox.classList.contains("nav__box-hiden"))
@@ -8,6 +9,7 @@ navIcon.addEventListener("click", (e) => {
    else navBox.classList.add("nav__box-hiden");
 });
 
+// ? show | hidden navBar when chiking in some link
 navBox.addEventListener("click", (e) => {
    e.stopPropagation();
    e.target.classList.contains("nav__link") &&
